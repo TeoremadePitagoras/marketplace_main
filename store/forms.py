@@ -71,9 +71,6 @@ class NewItemForm(forms.ModelForm):
             'price': forms.TextInput(attrs={
                 'class': 'form-control',
             }),
-            'price': forms.TextInput(attrs={
-                'class': 'form-control',
-            }),
             'image': forms.FileInput(attrs={
                 'class': 'form-control',
             }),
